@@ -73,7 +73,7 @@ nano conf/interfaces
 change wlan0 static address to something unique, 192.168.9x.1  
 sudo cp -vf conf/interfaces /etc/network/  
 nano conf/hostapd.conf  
-### set new wireless access point name + change channel  
+- set new wireless access point name + change channel  
 sudo cp -vf conf/hostapd.conf /etc/hostapd/  
 nano conf/dnsmasq.conf  
 change address to address=/#/<ip addr>  
